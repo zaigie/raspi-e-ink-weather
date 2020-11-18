@@ -1,13 +1,10 @@
-#!/usr/bin/python
-# -*- coding:utf-8 -*-
-
-import epd2in9b #墨水屏
-from bs4 import BeautifulSoup   #用来代替正则表达式取源码中相应标签的内容
+import epd2in9b
+from bs4 import BeautifulSoup
 import random
-import requests #用来抓取网页的html源代码
-import socket #用做异常处理
+import requests
+import socket
 import time
-import http.client #用做异常处理
+import http.client
 import csv
 import os
 import sys
